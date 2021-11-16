@@ -1,0 +1,40 @@
+Body {
+    background: rgb(156,156,156);
+    background: linear-gradient(0deg, rgba(156,156,156,1) 17%, rgba(185,185,185,1) 76%, rgba(255,255,255,1) 100%); 
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+.title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+Form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.gif-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.giphy-gif {
+    margin: auto;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px  grey; 
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
