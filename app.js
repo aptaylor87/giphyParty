@@ -25,6 +25,6 @@ function addGif(response) {
 }
 
 $('#delete').on('click', function() {
-    $('#gif-area').empty();
+    $('.gif-area').empty();
 });
 
