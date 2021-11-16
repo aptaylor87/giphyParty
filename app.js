@@ -4,7 +4,7 @@ const token = "aQ0F6loLrpzjl1v9jtDNyyLd7I1Cjdcu";
 $('#giphy-search').on('submit', async function(evt) {
     evt.preventDefault();
     let searchTerm = $('#search-term').val();
-    const res = await axios.get('http://api.giphy.com/v1/gifs/search', { params: { q: searchTerm, api_key: token } });
+    const res = await axios.get('https://api.giphy.com/v1/gifs/search', { params: { q: searchTerm, api_key: token } });
     addGif(res.data);
     $('#search-term').val("");
 
